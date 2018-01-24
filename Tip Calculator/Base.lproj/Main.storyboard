@@ -90,7 +90,11 @@
                     <navigationItem key="navigationItem" id="fhv-8y-ot6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="fNe-mA-l4S"/>
+                <tapGestureRecognizer id="fNe-mA-l4S">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="Abm-B2-09Z"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="595" y="147"/>
         </scene>
