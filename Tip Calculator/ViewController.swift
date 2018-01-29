@@ -16,7 +16,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Sets the title in the Navigation Bar
+        self.title = "Tip Calculator"
+        
+        // ...
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +32,8 @@ class ViewController: UIViewController {
         
         view.endEditing(true);
     }
+    
+
     
     @IBAction func calculateTip(_ sender: Any) {
         
